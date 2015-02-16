@@ -13,3 +13,8 @@ This is run when the new model is detected in config/models
 Something about this caused the dev server to terminate but a simple restart fixed it.
     Migrating: CREATE TABLE "article"("id" INTEGER PRIMARY KEY,"title" VARCHAR NOT NULL,"content" VARCHAR NOT NULL)
 09/Feb/2015:21:22:28 -0800 [Debug#SQL] "CREATE TABLE \"article\"(\"id\" INTEGER PRIMARY KEY,\"title\" VARCHAR NOT NULL,\"content\" VARCHAR NOT NULL)" [] @(persistent-2.1.1.4:Database.Persist.Sql.Raw ./Database/Persist/Sql/Raw.hs:64:18)
+## Haskell import syntax
+The () after the import module indicate which functions, types, etc to import so Haskell doesn't just import them all.
+
+## Article Error Page
+Note that the template for the article post Error page is template/articleAddError.hamlet
